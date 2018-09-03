@@ -129,7 +129,7 @@ class Hestia_Footer extends Hestia_Abstract_Main {
 				sprintf(
 					/* translators: %s is Theme name */
 					'<a href="https://themeisle.com/themes/hestia/" target="_blank" rel="nofollow">%s</a>',
-					esc_html__( 'Hestia', 'hestia' )
+					esc_html__( 'Finesse', 'Finesse' )
 				),
 				/* translators: %1$s is URL, %2$s is WordPress */
 				sprintf(
