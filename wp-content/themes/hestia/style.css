@@ -1454,10 +1454,7 @@ h2.hestia-title-contactus {
   top: 0;
   min-height: 565px;
 }
-.fa-feature {
-  position: relative;
-  top: 200px;
-}
+
 .fullscreen-feature {
   height: 100vh;
   position: relative;
