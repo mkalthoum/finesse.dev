@@ -1094,7 +1094,7 @@ height: 100%;
 }
 .fa-feature {
   position: relative;
-  top: 200px;
+  top: 74px;
 }
 a.fa-feature {
   color: #999 !important;
@@ -1453,6 +1453,10 @@ h2.hestia-title-contactus {
   position: relative;
   top: 0;
   min-height: 565px;
+}
+.fa-feature {
+  position: relative;
+  top: 200px;
 }
 .fullscreen-feature {
   height: 100vh;
