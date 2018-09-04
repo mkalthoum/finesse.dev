@@ -151,7 +151,7 @@ class Hestia_Big_Title_Section extends Hestia_First_Front_Page_Section {
 			<?php } ?>
 			<?php if ( ! empty( $content['button_link'] )  ) { ?>
 				<div class="buttons">
-							<a href="#about"
+							<a href="#finesse"
 							title="Learn More"
 							class="btn-custom2 btn" >Learn More</a>
 					<a href="https://www.apple.com/ios/app-store/" target="_blank"
