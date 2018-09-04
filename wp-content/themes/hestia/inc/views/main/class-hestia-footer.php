@@ -79,6 +79,23 @@ class Hestia_Footer extends Hestia_Abstract_Main {
 		?>
 		<footer class="footer <?php echo esc_attr( $this->the_footer_class() ); ?> footer-big">
 			<?php hestia_before_footer_content_trigger(); ?>
+			<footer class="footer footer-big">
+    				  <div class="container text-center">
+				  	<div class="col-md-8 col-md-offset-2 text-center hestia-subscribe-title-area">
+
+				  		<h2 class="title">Follow Us!</h2>
+
+
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-google-plus"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+
+  </div>
+
+  </div>
+						<div class="container"> <hr>
 			<div class="container">
 				<?php hestia_before_footer_widgets_trigger(); ?>
 				<?php $this->render_footer_sidebars(); ?>
@@ -125,17 +142,17 @@ class Hestia_Footer extends Hestia_Abstract_Main {
 			'hestia_general_credits',
 			sprintf(
 				/* translators: %1$s is Theme Name, %2$s is WordPress */
-				esc_html__( '%1$s | Powered by %2$s', 'hestia' ),
+				esc_html__( '%1$s | ©2018 Finesse. All rights reserved. ', 'Finesse' ),
 				sprintf(
 					/* translators: %s is Theme name */
-					'<a href="https://themeisle.com/themes/hestia/" target="_blank" rel="nofollow">%s</a>',
+					'<a href="//www.finesse-app.com" target="_blank" rel="nofollow">%s</a>',
 					esc_html__( 'Finesse', 'Finesse' )
 				),
 				/* translators: %1$s is URL, %2$s is WordPress */
 				sprintf(
 					'<a href="%1$s" rel="nofollow">%2$s</a>',
-					esc_url( __( 'http://wordpress.org', 'hestia' ) ),
-					esc_html__( 'WordPress', 'hestia' )
+					esc_url( __( 'http://finesse-app.com', 'Finesse' ) ),
+					esc_html__( 'Finesse', 'Finesse' )
 				)
 			)
 		);
