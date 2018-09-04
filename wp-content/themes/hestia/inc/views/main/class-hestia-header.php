@@ -35,8 +35,8 @@ class Hestia_Header extends Hestia_Abstract_Main {
 					<div class="title-logo-wrapper header-logo" >
 						<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"
 								title="<?php bloginfo( 'name' ); ?>">
-							<img class="logo-normal" src="/wp-content/uploads/2018/08/fi-logo2.svg" style="width: 25%; height: auto;" alt="Finesse"></a>
-							
+							<img class="logo-normal" src="/finesse/wp-content/uploads/2018/08/fi-logo2.svg" style="width: 25%; height: auto;" alt="Finesse"></a>
+
 					</div>
 
 				</div>
@@ -327,9 +327,9 @@ class Hestia_Header extends Hestia_Abstract_Main {
 		if ( ! empty( $hestia_top_bar_background ) ) {
 			$custom_css .= '.hestia-top-bar, .hestia-top-bar .widget .label-floating input[type=search], .hestia-top-bar .widget.widget_search form.form-group:before, .hestia-top-bar .widget.widget_product_search form.form-group:before, .hestia-top-bar .widget.widget_shopping_cart:before {
 			color: ' . esc_html( $hestia_top_bar_text_color ) . '
-		} 
+		}
 		.hestia-top-bar .widget .label-floating input[type=search]{
-			-webkit-text-fill-color:' . esc_html( $hestia_top_bar_text_color ) . ' !important 
+			-webkit-text-fill-color:' . esc_html( $hestia_top_bar_text_color ) . ' !important
 		}';
 		}
 
@@ -401,7 +401,7 @@ class Hestia_Header extends Hestia_Abstract_Main {
 				<div class="hestia-nav-search">
 					<span class="screen-reader-text">' . _x( 'Search for:', 'label', 'hestia' ) . '</span>
 					<span class="search-field-wrapper">
-					
+
 					<input type="search" class="search-field" placeholder="' . esc_attr_x( 'Search &hellip;', 'placeholder', 'hestia' ) . '" value="' . get_search_query() . '" name="s" />
 					</span>
 					<span class="search-submit-wrapper">

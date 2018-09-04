@@ -155,11 +155,11 @@ class Hestia_Big_Title_Section extends Hestia_First_Front_Page_Section {
 							title="Learn More"
 							class="btn-custom2 btn" >Learn More</a>
 					<a href="https://www.apple.com/ios/app-store/" target="_blank"
-							title="<Download Finesse"> 
-								<img  src="/wp-content/uploads/2018/08/appstore-lrg.svg"  alt="Finesse"></a>
+							title="<Download Finesse">
+								<img  src="/finesse/wp-content/uploads/2018/08/appstore-lrg.svg"  alt="Finesse"></a>
 					<?php hestia_big_title_section_buttons_trigger(); ?>
 				</div>
-				
+
 			<?php } ?>
 		</div>
 		<?php
