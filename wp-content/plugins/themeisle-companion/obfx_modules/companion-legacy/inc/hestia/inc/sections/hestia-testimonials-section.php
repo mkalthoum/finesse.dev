@@ -61,11 +61,17 @@ if ( ! function_exists( 'hestia_testimonials' ) ) :
 
 		hestia_before_testimonials_section_trigger(); ?>
 		</div>
-		<span id="about-us"></span>
-<div class="row hestia-about-content">
-						<p><span id="about-us"></span></p>
-<div class="container">
-<div class="row">
+
+
+        <section class="hestia-testimonials <?php echo esc_attr( $wrapper_class ); ?>" id="about-us" data-sorder="hestia_testimonials" <?php echo wp_kses_post( $section_style ); ?>>
+			<?php
+			hestia_before_testimonials_section_content_trigger();
+			if ( function_exists('hestia_display_customizer_shortcut') && $is_shortcode === false ) {
+				hestia_display_customizer_shortcut( 'hestia_testimonials_hide', true );
+			}
+			?>
+			<div class="container about-us fullscreen-about-us">
+<div class="row about-us">
 
 <div class="col-md-8 col-md-offset-2 hestia-testimonials-title-area ">
 <h2 class="hestia-title">About Us</h2>
@@ -74,30 +80,20 @@ if ( ! function_exists( 'hestia_testimonials' ) ) :
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin libero vulputate mi finibus, ac vulputate elit laoreet. Curabitur varius, sapien eget condimentum convallis, arcu libero sollicitudin mi, ut suscipit augue tellus et enim.</p>
 </div>
 </div>
-</div>
-</div>
-					</div>
-        <section class="hestia-testimonials <?php echo esc_attr( $wrapper_class ); ?>" id="testimonials" data-sorder="hestia_testimonials" <?php echo wp_kses_post( $section_style ); ?>>
-			<?php
-			hestia_before_testimonials_section_content_trigger();
-			if ( function_exists('hestia_display_customizer_shortcut') && $is_shortcode === false ) {
-				hestia_display_customizer_shortcut( 'hestia_testimonials_hide', true );
-			}
-			?>
             <div class="<?php echo esc_attr( $container_class ); ?>">
 
 				<?php
 				hestia_top_testimonials_section_content_trigger();
 				if ( $is_shortcode === false ) {
 					?>
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center hestia-testimonials-title-area">
+                    <div class="row about-us">
+                        <div class="col-md-8 col-md-offset-2 hestia-testimonials-title-area">
 							<?php
                             if( function_exists('hestia_display_customizer_shortcut') ) {
 	                            hestia_display_customizer_shortcut( 'hestia_testimonials_title' );
                             }
 							if ( ! empty( $hestia_testimonials_title ) || is_customize_preview() ) {
-								echo '<h2 style="float: left;" class="hestia-title">' . wp_kses_post( $hestia_testimonials_title ) . '</h2>';
+								echo '<h2 class="hestia-title">' . wp_kses_post( $hestia_testimonials_title ) . '</h2>';
 							}
 							if ( ! empty( $hestia_testimonials_subtitle ) || is_customize_preview() ) {
 								echo '<p style="display: inline-block;">' . wp_kses_post( $hestia_testimonials_subtitle ) . '</h5>';
@@ -214,7 +210,7 @@ function hestia_testimonials_content( $hestia_testimonials_content, $is_callback
 	endif;
 	if ( ! $is_callback ) {
 		?>
-		<div class="arrow bounce gray-arrow"><a class="fa fa-feature fa-arrow-down fa-2x" href="#subscribe"></a></div>
+		<div class="arrow bounce gray-arrow"><a class="fa fa-about-us fa-arrow-down fa-2x" href="#subscribe"></a></div>
         </div>
 		<?php
 	}

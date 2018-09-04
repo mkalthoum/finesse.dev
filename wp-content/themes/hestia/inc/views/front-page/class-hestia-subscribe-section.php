@@ -90,7 +90,7 @@ class Hestia_Subscribe_Section extends Hestia_Abstract_Main {
 			?><span id="subscribe"></span>
 			<div class="container fullscreen subscribe-center">
 				<?php hestia_top_subscribe_section_content_trigger(); ?>
-				
+
 				<div class="row text-center">
 
 					<div class="col-md-8 col-md-offset-2 text-center hestia-subscribe-title-area">
@@ -104,7 +104,7 @@ class Hestia_Subscribe_Section extends Hestia_Abstract_Main {
 							<h5 class="subscribe-description"><?php echo hestia_sanitize_string( $hestia_subscribe_subtitle ); ?></h5>
 						<?php endif; ?>
 					</div>
-			
+
 				</div>
 				<?php if ( is_active_sidebar( 'subscribe-widgets' ) ) : ?>
 					<div class="row">
@@ -117,7 +117,7 @@ class Hestia_Subscribe_Section extends Hestia_Abstract_Main {
 								</div>
 							</div>
 						</div>
-					</div><div style=" position: relative; top: 20%;" class="bounce arrow"><a class="fa fa-arrow-down fa-2x" href="#contact"></a></div>
+					</div><div style=" position: relative; top: 23%;" class="bounce arrow"><a class="fa fa-arrow-down fa-2x" href="#contact"></a></div>
 				<?php endif; ?>
 				<?php hestia_bottom_subscribe_section_content_trigger(); ?>
 			</div>

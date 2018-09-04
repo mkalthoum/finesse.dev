@@ -1044,7 +1044,16 @@ iframe {
 width: 100%;
 height: 100%;
 }
+.fullscreen-about-us {
+  height: 100vh;
+  position: relative;
+top: 40px;
 
+}
+.about-us {
+  text-align: left !important;
+  margin-top: 10px;
+}
 .fullscreen {
   height: 90vh;
   position: relative;
@@ -1116,6 +1125,16 @@ a.fa-feature:hover {
   60% {
     transform: translateY(-15px);
   }
+}
+.fa-about-us {
+  position: relative;
+top: 20px;
+}
+a.fa-about-us {
+  color: #999 !important;
+}
+a.fa-about-us:hover {
+  color: #333 !important;
 }
 
 
