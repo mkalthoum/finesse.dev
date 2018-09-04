@@ -212,8 +212,8 @@ class Hestia_Footer extends Hestia_Abstract_Main {
 	 * Utility to get the footer class for color changes.
 	 */
 	private function the_footer_class() {
-		$footer_style = get_theme_mod( 'hestia_alternative_footer_style', 'black_footer' );
-		$class        = 'footer-black';
+		$footer_style = get_theme_mod( 'hestia_alternative_footer_style', 'white_footer' );
+		$class        = 'white-footer';
 
 		if ( $footer_style === 'white_footer' ) {
 			$class = '';
