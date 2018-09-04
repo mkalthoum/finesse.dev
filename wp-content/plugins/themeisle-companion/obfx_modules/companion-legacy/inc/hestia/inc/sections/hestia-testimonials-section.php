@@ -61,9 +61,9 @@ if ( ! function_exists( 'hestia_testimonials' ) ) :
 
 		hestia_before_testimonials_section_trigger(); ?>
 		</div>
-		<span id="aboutus"></span>
+		<span id="about-us"></span>
 <div class="row hestia-about-content">
-						<p><span id="aboutus"></span></p>
+						<p><span id="about-us"></span></p>
 <div class="container">
 <div class="row">
 
@@ -204,7 +204,7 @@ function hestia_testimonials_content( $hestia_testimonials_content, $is_callback
 							<?php endif; ?>
                         </div>
                     </div>
-                    
+
                 </div>
 
 				<?php
