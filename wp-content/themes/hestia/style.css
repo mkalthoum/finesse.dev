@@ -1092,7 +1092,10 @@ height: 100%;
   margin: 20% 0 0 0 !important;
    z-index: -1;
 }
-
+.fa-feature {
+  position: relative;
+  top: 200px;
+}
 a.fa-feature {
   color: #999 !important;
 }
@@ -1455,7 +1458,6 @@ h2.hestia-title-contactus {
   height: 100vh;
   position: relative;
   top: 0;
-  min-height: 605px;
 }
 .feature-center {
   position: relative;
@@ -8451,4 +8453,3 @@ div.wpforms-container .wpforms-form select:focus {
   font-size: 18px !important;
   margin-top: -10px !important;
 }
-
