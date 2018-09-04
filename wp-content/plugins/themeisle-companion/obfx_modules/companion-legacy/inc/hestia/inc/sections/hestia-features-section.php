@@ -81,7 +81,7 @@ if ( ! function_exists( 'hestia_features' ) ) :
 				<?php hestia_bottom_features_section_content_trigger(); ?>
 
 			</div>
-<div  class="bounce feature-arrow"><a class="fa fa-feature fa-arrow-down fa-2x" href="#aboutus"></a></div>
+<div  class="bounce feature-arrow"><a class="fa fa-feature fa-arrow-down fa-2x" href="#about-us"></a></div>
 			</div>
 
 			<?php hestia_after_features_section_content_trigger(); ?>
