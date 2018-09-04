@@ -77,14 +77,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin liber
 }
 
 add_action( 'hestia_after_subscribe_section_hook', 'new_section_2' );*/
-
-function new_section_1(){
+/*function new_section_1(){
 	
 echo do_shortcode('<div id="video" style="position: relative; top: -70px;"></div><div class="fullscreen-video"><div class="video">[su_youtube url="https://www.youtube.com/watch?v=ZQhClXsxVcArel=0" id="play"]</div></div></div>');
 	
 }
 
-add_action( 'hestia_before_testimonials_section_hook', 'new_section_1' );
+add_action( 'hestia_before_testimonials_section_hook', 'new_section_1' );*/
+
 /**
  * Begins execution of the theme core.
  *
