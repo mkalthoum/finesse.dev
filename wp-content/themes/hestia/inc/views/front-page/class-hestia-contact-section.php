@@ -149,21 +149,7 @@ class Hestia_Contact_Section extends Hestia_Abstract_Main {
 					?>
 				</div>
 				<?php hestia_bottom_contact_section_content_trigger(); ?>
-				  <div class="container text-center">
-				  	<div class="col-md-8 col-md-offset-2 text-center hestia-subscribe-title-area">
-				  		<hr />
-				  		<h2 class="title">Follow Us!</h2>
-				  	
-				  	
-    <a href="#"><i class="fa fa-facebook"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
-    <a href="#"><i class="fa fa-google-plus"></i></a>
-    <a href="#"><i class="fa fa-instagram"></i></a>
 
-  </div>
-  
-  </div>
 			</div>
 			<?php hestia_after_contact_section_content_trigger(); ?>
 		</section>
@@ -232,7 +218,7 @@ class Hestia_Contact_Section extends Hestia_Abstract_Main {
             </div>
 		</div>
         <div class="content">
-        	
+
 	        <div class="pirate_forms_wrap">
 	            <form class="pirate_forms ">
 	                <div class="pirate_forms_three_inputs_wrap">
