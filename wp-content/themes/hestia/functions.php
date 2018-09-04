@@ -5,7 +5,7 @@
  * @package Hestia
  * @since   Hestia 1.0
  */
-// this function initializes the iframe elements 
+// this function initializes the iframe elements
 
 function add_iframe($initArray) {
 $initArray['extended_valid_elements'] = "iframe[id|class|title|style|align|frameborder|height|longdesc|marginheight|marginwidth|name|scrolling|src|width]";
@@ -56,7 +56,7 @@ if ( version_compare( PHP_VERSION, '5.3.29' ) < 0 ) {
 	return;
 }
 /*function new_section_2(){
-	
+
 echo do_shortcode('<span id="aboutus"></span>
 <div class="container fullscreen">
 <div class="row"><div class="about-center">
@@ -73,14 +73,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin liber
 
 </div>
 </div>');
-	
+
 }
 
 add_action( 'hestia_after_subscribe_section_hook', 'new_section_2' );*/
 /*function new_section_1(){
-	
+
 echo do_shortcode('<div id="video" style="position: relative; top: -70px;"></div><div class="fullscreen-video"><div class="video">[su_youtube url="https://www.youtube.com/watch?v=ZQhClXsxVcArel=0" id="play"]</div></div></div>');
-	
+
 }
 
 add_action( 'hestia_before_testimonials_section_hook', 'new_section_1' );*/
@@ -226,4 +226,3 @@ function hestia_check_passed_time( $no_seconds ) {
 function hestia_setup_theme() {
 	return;
 }
-
