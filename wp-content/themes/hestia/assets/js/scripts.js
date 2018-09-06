@@ -9,7 +9,11 @@
 /* global AOS */
 /* global requestpost */
 
-
+$('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(400);
+});
 
 
 jQuery( document ).ready(
@@ -26,7 +30,7 @@ jQuery( document ).ready(
         $( '.select' ).dropdown(
             {
                 'dropdownClass': 'dropdown-menu',
-                'optionClass': ''
+                'optionClass': 'dropdown'
             }
         );
 
@@ -712,8 +716,8 @@ $('a[href*="#"]')
   .click(function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
@@ -741,6 +745,5 @@ $('a[href*="#"]')
     }
   });
 
- 
-}( jQuery ));
 
+}( jQuery ));
