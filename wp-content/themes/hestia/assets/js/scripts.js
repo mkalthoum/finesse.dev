@@ -9,11 +9,6 @@
 /* global AOS */
 /* global requestpost */
 
-$('ul.nav li.dropdown').hover(function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-}, function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(400);
-});
 
 
 jQuery( document ).ready(
@@ -33,7 +28,14 @@ jQuery( document ).ready(
                 'optionClass': 'dropdown'
             }
         );
-
+// Menu nav open when hover
+$(document).ready(function () {
+    $("ul.nav li.dropdown").hover(function () { //When trigger is hovered...
+        $(this).children("ul.dropdown-menu").slideDown('fast');
+    }, function () {
+        $(this).children("ul.dropdown-menu").slideUp('slow');
+    });
+});
         // Active Carousel
         var settings = {
             interval: 10000

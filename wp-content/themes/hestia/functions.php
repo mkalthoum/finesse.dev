@@ -55,28 +55,32 @@ if ( version_compare( PHP_VERSION, '5.3.29' ) < 0 ) {
 
 	return;
 }
-/*function new_section_2(){
+function new_section_2(){
 
-echo do_shortcode('<span id="aboutus"></span>
-<div class="container fullscreen">
-<div class="row"><div class="about-center">
+echo do_shortcode('<section class="hestia-about hestia-about-us section-image" id="about-us" data-sorder="hestia_testimonials" tabindex="-1" style="background-image: url(http://localhost/finesse/wp-content/uploads/2018/08/Bahamas.jpeg);" ><span id="about-us"></spand>
+						<div class="container about-us fullscreen-about-us">
+<div class="row about-us">
 <div class="col-md-8 col-md-offset-2 hestia-testimonials-title-area ">
 
 <h2 class="hestia-title">About Us</h2>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt, felis ac ullamcorper eleifend, neque tortor consectetur magna, sed maximus massa ex molestie erat. Nunc suscipit tincidunt erat vel dignissim. Morbi aliquet vel felis nec venenatis. Ut aliquam, augue a mollis fringilla, leo est hendrerit risus, ac sagittis mi tortor at est.
-<blockquote>Morbi quis venenatis lorem. Quisque varius, erat quis pellentesque feugiat, magna erat aliquet orci, sit amet porttitor enim est eu metus.</blockquote>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin libero vulputate mi finibus, ac vulputate elit laoreet. Curabitur varius, sapien eget condimentum convallis, arcu libero sollicitudin mi, ut suscipit augue tellus et enim.
-<div class="arrow bounce"><a class="fa fa-arrow-down fa-2x" href="#features"></a></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt, felis ac ullamcorper eleifend, neque tortor consectetur magna, sed maximus massa ex molestie erat. Nunc suscipit tincidunt erat vel dignissim. Morbi aliquet vel felis nec venenatis. Ut aliquam, augue a mollis fringilla, leo est hendrerit risus, ac sagittis mi tortor at est.</p>
+<p>Morbi quis venenatis lorem. Quisque varius, erat quis pellentesque feugiat, magna erat aliquet orci, sit amet porttitor enim est eu metus.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin libero vulputate mi finibus, ac vulputate elit laoreet. Curabitur varius, sapien eget condimentum convallis, arcu libero sollicitudin mi, ut suscipit augue tellus et enim.</p>
+<h2 class="hestia-title">Mission</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin libero vulputate mi finibus, ac vulputate elit laoreet. Curabitur varius, sapien eget condimentum convallis, arcu libero sollicitudin mi, ut suscipit augue tellus et enim.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin libero vulputate mi finibus, ac vulputate elit laoreet. Curabitur varius, sapien eget condimentum convallis, arcu libero sollicitudin mi, ut suscipit augue tellus et enim.</p>
+<br />
+<div class="arrow bounce gray-arrow"><a class="fa fa-arrow-down fa-2x" href="#subscribe"></a></div>
 </div>
 
 </div>
 
 </div>
-</div>');
+</div></section>');
 
 }
 
-add_action( 'hestia_after_subscribe_section_hook', 'new_section_2' );*/
+add_action( 'hestia_before_subscribe_section_hook', 'new_section_2' );
 /*function new_section_1(){
 
 echo do_shortcode('<div id="video" style="position: relative; top: -70px;"></div><div class="fullscreen-video"><div class="video">[su_youtube url="https://www.youtube.com/watch?v=ZQhClXsxVcArel=0" id="play"]</div></div></div>');

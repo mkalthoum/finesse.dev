@@ -117,7 +117,7 @@ class Hestia_Subscribe_Section extends Hestia_Abstract_Main {
 								</div>
 							</div>
 						</div>
-					</div><div style=" position: relative; top: 23%;" class="bounce arrow"><a class="fa fa-arrow-down fa-2x" href="#contact"></a></div>
+					</div><div style=" position: relative; top: 18%;" class="bounce arrow"><a class="fa fa-arrow-down fa-2x" href="#contact"></a></div>
 				<?php endif; ?>
 				<?php hestia_bottom_subscribe_section_content_trigger(); ?>
 			</div>

@@ -1053,6 +1053,7 @@ top: 40px;
 .about-us {
   text-align: left !important;
   margin-top: 10px;
+  padding: 0px 0;
 }
 .fullscreen {
   height: 90vh;
@@ -1103,7 +1104,7 @@ top: 40px;
 }
 .fa-feature {
   position: relative;
-  top: 74px;
+  top: 25px;
 }
 a.fa-feature {
   color: #999 !important;
@@ -4409,7 +4410,7 @@ table > tbody > tr:last-child,
 .about,
 .hestia-about {
   padding: 0 0 20px;
-margin-top: 1px;
+
 }
 
 .team,
@@ -5116,7 +5117,7 @@ margin-top: 1px;
 ## Subscribe Section
 --------------------------------------------------------------*/
 .subscribe-line {
-  padding: 65px 0;
+  padding: 35px 0;
 }
 .subscribe-line .card {
   margin-top: 30px;
