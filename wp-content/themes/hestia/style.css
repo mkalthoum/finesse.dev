@@ -1045,10 +1045,11 @@ width: 100%;
 height: 100%;
 }
 .fullscreen-about-us {
-  height: 100vh;
+  height: 130vh;
   position: relative;
-top: 40px;
-
+top: 30px;
+margin-right: 15px;
+margin-left: 15px;
 }
 .about-us {
   text-align: left !important;
@@ -1083,7 +1084,7 @@ top: 40px;
 }
 .arrow {
   text-align: center;
-  margin: 8% 0;
+  margin: 8% 0 !important;
    z-index: -1;
 }
 .gray-arrow {
@@ -1104,7 +1105,7 @@ top: 40px;
 }
 .fa-feature {
   position: relative;
-  top: 25px;
+  top: 24px;
 }
 a.fa-feature {
   color: #999 !important;
@@ -1349,6 +1350,13 @@ h2.hestia-title-contactus {
 
 }
 @media (min-width: 749px) {
+  .fullscreen-about-us {
+  height: 100vh;
+  position: relative;
+top: 40px;
+margin-right: 15px;
+margin-left: 15px;
+}
   .feature-center {
   position: relative;
   top: 40px;
@@ -1399,6 +1407,13 @@ h2.hestia-title-contactus {
 
 }
 @media (min-width: 768px) {
+  .fullscreen-about-us {
+  height: 100vh;
+  position: relative;
+top: 40px;
+margin-right: 15px;
+margin-left: 15px;
+}
  .fullscreen {
   height: 90vh;
   position: relative;
@@ -1416,6 +1431,13 @@ h2.hestia-title-contactus {
   }
 }
 @media (min-width: 992px) {
+  .fullscreen-about-us {
+  height: 100vh;
+  position: relative;
+top: 40px;
+margin-right: 15px;
+margin-left: 15px;
+}
   .fullscreen {
   height: 90vh;
   position: relative;
@@ -1468,6 +1490,13 @@ h2.hestia-title-contactus {
 
 }
 @media (min-width: 1200px) {
+  .fullscreen-about-us {
+  height: 100vh;
+  position: relative;
+top: 100px;
+margin-right: 15px;
+margin-left: 15px;
+}
   .fullscreen {
   height: 90vh;
   position: relative;

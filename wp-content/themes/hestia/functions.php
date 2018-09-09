@@ -65,7 +65,7 @@ echo do_shortcode('<section class="hestia-about hestia-about-us section-image" i
 <h2 class="hestia-title">About Us</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt, felis ac ullamcorper eleifend, neque tortor consectetur magna, sed maximus massa ex molestie erat. Nunc suscipit tincidunt erat vel dignissim. Morbi aliquet vel felis nec venenatis. Ut aliquam, augue a mollis fringilla, leo est hendrerit risus, ac sagittis mi tortor at est.</p>
 <p>Morbi quis venenatis lorem. Quisque varius, erat quis pellentesque feugiat, magna erat aliquet orci, sit amet porttitor enim est eu metus.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin libero vulputate mi finibus, ac vulputate elit laoreet. Curabitur varius, sapien eget condimentum convallis, arcu libero sollicitudin mi, ut suscipit augue tellus et enim.</p>
+
 <h2 class="hestia-title">Mission</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin libero vulputate mi finibus, ac vulputate elit laoreet. Curabitur varius, sapien eget condimentum convallis, arcu libero sollicitudin mi, ut suscipit augue tellus et enim.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sollicitudin libero vulputate mi finibus, ac vulputate elit laoreet. Curabitur varius, sapien eget condimentum convallis, arcu libero sollicitudin mi, ut suscipit augue tellus et enim.</p>
