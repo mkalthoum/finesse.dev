@@ -1089,7 +1089,7 @@ margin-left: 15px;
 }
 .gray-arrow {
   text-align: center;
-  margin: 0 !important;
+
    z-index: -1;
 }
 .bounce {
@@ -1410,7 +1410,7 @@ margin-left: 15px;
   .fullscreen-about-us {
   height: 100vh;
   position: relative;
-top: 40px;
+top: 100px;
 margin-right: 15px;
 margin-left: 15px;
 }
