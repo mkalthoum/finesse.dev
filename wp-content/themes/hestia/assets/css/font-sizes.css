@@ -25,11 +25,17 @@ h2.hestia-title,
 h2.title {
 	font-size: 37px;
 }
+@media (max-width: 450px) {
+	h2.hestia-title,
+	h2.title {
+		font-size: 24px;
+	}
+}
 
 @media (max-width: 768px) {
 	h2.hestia-title,
 	h2.title {
-		font-size: 24px;
+		font-size: 29px;
 	}
 }
 
@@ -148,48 +154,123 @@ h6,
 	font-size: 18px;
 }
 
-@media (max-width: 768px) {
+@media (max-width:  375px) {
 	h1,
 	.single-post-wrap article h1,
 	.page-content-wrap h1,
 	.page-template-template-fullwidth article h1 {
-		font-size: 36px;
+		font-size: 30px;
 	}
 
 	h2,
 	.single-post-wrap article h2,
 	.page-content-wrap h2,
 	.page-template-template-fullwidth article h2 {
-		font-size: 32px;
+		font-size: 26px !important;
 	}
 
 	h3,
 	.single-post-wrap article h3,
 	.page-content-wrap h3,
 	.page-template-template-fullwidth article h3 {
-		font-size: 28px;
+		font-size: 22px;
 	}
 
 	h4,
 	.single-post-wrap article h4,
 	.page-content-wrap h4,
 	.page-template-template-fullwidth article h4 {
-		font-size: 24px;
+		font-size: 20px;
 	}
 
 	h5,
 	.single-post-wrap article h5,
 	.page-content-wrap h5,
 	.page-template-template-fullwidth article h5 {
-		font-size: 21px;
+		font-size: 19px;
 	}
 
 	h6,
 	.single-post-wrap article h6,
 	.page-content-wrap h6,
 	.page-template-template-fullwidth article h6 {
-		font-size: 18px;
+		font-size: 17px;
 	}
+}
+
+@media (max-width: 768px) {
+	h1,
+	.single-post-wrap article h1,
+	.page-content-wrap h1,
+	.page-template-template-fullwidth article h1 {
+		font-size: 32px;
+	}
+
+	h2,
+	.single-post-wrap article h2,
+	.page-content-wrap h2,
+	.page-template-template-fullwidth article h2 {
+		font-size: 28px;
+	}
+
+	h3,
+	.single-post-wrap article h3,
+	.page-content-wrap h3,
+	.page-template-template-fullwidth article h3 {
+		font-size: 26px;
+	}
+
+	h4,
+	.single-post-wrap article h4,
+	.page-content-wrap h4,
+	.page-template-template-fullwidth article h4 {
+		font-size: 22px;
+	}
+
+	h5,
+	.single-post-wrap article h5,
+	.page-content-wrap h5,
+	.page-template-template-fullwidth article h5 {
+		font-size: 20px;
+	}
+
+	h6,
+	.single-post-wrap article h6,
+	.page-content-wrap h6,
+	.page-template-template-fullwidth article h6 {
+		font-size: 17px;
+	}
+}
+@media (max-width: 1400px) {
+h2,
+.single-post-wrap article h2,
+.page-content-wrap h2 {
+	font-size: 32px;
+}
+
+h3,
+.single-post-wrap article h3,
+.page-content-wrap h3 {
+	font-size: 30px;
+}
+
+h4,
+.single-post-wrap article h4,
+.page-content-wrap h4 {
+	font-size: 27px;
+}
+
+h5,
+.single-post-wrap article h5,
+.page-content-wrap h5 {
+	font-size: 23px;
+}
+
+h6,
+.single-post-wrap article h6,
+.page-content-wrap h6 {
+	font-size: 18px;
+}
 }
 
 /*

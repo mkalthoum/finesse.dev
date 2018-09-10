@@ -1170,7 +1170,7 @@ h2.hestia-title {
 }
 h2.hestia-title-contactus {
   margin-bottom: 10px;
-  font-size: 24px !important;
+
     color: #fff;
 }
 .carousel h1.hestia-title,
@@ -1350,6 +1350,12 @@ h2.hestia-title-contactus {
 
 }
 @media (min-width: 749px) {
+  .contactus .card .content {
+  padding: 30px 30px 0;
+}
+  .card .content {
+  padding: 15px 30px;
+}
   .fullscreen-about-us {
   height: 100vh;
   position: relative;
@@ -1407,6 +1413,12 @@ margin-left: 15px;
 
 }
 @media (min-width: 768px) {
+  .contactus .card .content {
+  padding: 30px 30px 0;
+}
+  .card .content {
+  padding: 15px 30px;
+}
   .fullscreen-about-us {
   height: 100vh;
   position: relative;
@@ -1431,6 +1443,12 @@ margin-left: 15px;
   }
 }
 @media (min-width: 992px) {
+  .contactus .card .content {
+  padding: 30px 30px 0;
+}
+  .card .content {
+  padding: 15px 30px;
+}
   .fullscreen-about-us {
   height: 100vh;
   position: relative;
@@ -1490,6 +1508,12 @@ margin-left: 15px;
 
 }
 @media (min-width: 1200px) {
+  .contactus .card .content {
+  padding: 30px 30px 0;
+}
+  .card .content {
+  padding: 15px 30px;
+}
   .fullscreen-about-us {
   height: 100vh;
   position: relative;
@@ -3580,9 +3604,7 @@ body.admin-bar .navbar {
 .card .category:not([class*="text-"]) {
   color: #999999;
 }
-.card .content {
-  padding: 15px 30px;
-}
+
 .card .header {
   margin: 15px;
   padding: 15px 0;
@@ -4692,15 +4714,15 @@ table > tbody > tr:last-child,
 .contactus .pirate-forms-footer .form-group {
   padding-bottom: 0;
 }
-.contactus .card .content {
+/*.contactus .card .content {
   padding: 30px 30px 0;
-}
+}*/
 .contactus .pirate_forms_wrap {
   float: none;
 }
 .contactus .pirate_forms_wrap #pirate-forms-contact-message {
   height: 130px;
-      border-top: dotted 0.5px #ccc;
+     
 }
 .contactus .pirate_forms_wrap .form_field_wrap {
   margin-bottom: 17px;
