@@ -4249,7 +4249,7 @@ table > tbody > tr:last-child,
   top: 0;
 }
 .carousel .btn {
-  margin: 6px;
+  margin: 0px;
 }
 .carousel .page-header {
   display: flex;
