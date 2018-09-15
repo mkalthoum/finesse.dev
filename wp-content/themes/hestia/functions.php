@@ -57,9 +57,9 @@ if ( version_compare( PHP_VERSION, '5.3.29' ) < 0 ) {
 }
 function new_section_2(){
 
-echo do_shortcode('<section class="hestia-about hestia-about-us section-image" id="about-us" data-sorder="hestia_testimonials" tabindex="-1" style="background-image: url(http://localhost/finesse/wp-content/uploads/2018/08/Bahamas.jpeg);" ><span id="about-us"></spand>
-						<div class="container about-us fullscreen-about-us">
-<div class="row about-us">
+echo do_shortcode('<section class="hestia-about hestia-about-us section-image fullscreen-about-us" id="about-us" data-sorder="hestia_testimonials" tabindex="-1" style="background-image: url(http://localhost/finesse/wp-content/uploads/2018/08/Bahamas.jpeg);" ><span id="about-us"></spand>
+						<div class="container about-us">
+<div class="row">
 <div class="col-md-8 col-md-offset-2 hestia-testimonials-title-area ">
 
 <h2 class="hestia-title">About Us</h2>

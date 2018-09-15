@@ -1045,9 +1045,9 @@ width: 100%;
 height: 100%;
 }
 .fullscreen-about-us {
-  height: 140vh;
+  height: 100vh;
   position: relative;
-top: 30px;
+
 
 }
 .about-us {
@@ -1349,7 +1349,29 @@ h2.hestia-title-contactus {
 }
 
 }
+
+@media (min-width: 420px) {
+   .fullscreen {
+  height: 95vh;
+  position: relative;
+  padding-top: 100px;
+  min-height: 565px;
+
+}
+.hestia-about.section-image {
+padding-top: 15%;
+padding-right: 15px;
+padding-left: 15px;
+
+}
+}
 @media (min-width: 749px) {
+  .about-us {
+    padding-top: 10%;
+  }
+.hestia-about.section-image {
+padding-top: 14%;
+}
   .contactus .card .content {
   padding: 30px 30px 0;
 }
@@ -1359,9 +1381,8 @@ h2.hestia-title-contactus {
   .fullscreen-about-us {
   height: 100vh;
   position: relative;
-top: 40px;
-margin-right: 15px;
-margin-left: 15px;
+
+
 }
   .feature-center {
   position: relative;
@@ -1370,8 +1391,9 @@ margin-left: 15px;
   .fullscreen {
   height: 90vh;
   position: relative;
-  top: 0;
+  padding-top: 100px;
   min-height: 565px;
+
 }
   .container {
     max-width: 748px;
@@ -1422,14 +1444,14 @@ margin-left: 15px;
   .fullscreen-about-us {
   height: 100vh;
   position: relative;
-top: 100px;
-margin-right: 15px;
-margin-left: 15px;
+
+
 }
  .fullscreen {
   height: 90vh;
   position: relative;
-  top: 100px;
+  padding-top: 100px;
+
 }
 .feature-center {
   position: relative;
@@ -1452,14 +1474,13 @@ margin-left: 15px;
   .fullscreen-about-us {
   height: 100vh;
   position: relative;
-top: 40px;
-margin-right: 15px;
-margin-left: 15px;
+
+
 }
   .fullscreen {
   height: 90vh;
   position: relative;
-  top: 100px;
+
 }
 .feature-center {
   position: relative;
@@ -1517,9 +1538,9 @@ margin-left: 15px;
   .fullscreen-about-us {
   height: 100vh;
   position: relative;
-top: 100px;
-margin-right: 15px;
-margin-left: 15px;
+  padding-top: 2% !important;
+
+
 }
   .fullscreen {
   height: 90vh;
@@ -1538,8 +1559,7 @@ margin-left: 15px;
   top: 100px;
 }
 .about-center {
-  position: absolute;
-  top: 20%;
+  padding-top: 15% !important;
 }
   .container {
     max-width: 2000px;
@@ -4568,6 +4588,7 @@ table > tbody > tr:last-child,
 .hestia-about {
   background-attachment: fixed;
   color: #999999;
+
 }
 .hestia-about h1, .hestia-about h2, .hestia-about h3, .hestia-about h4, .hestia-about h5 {
   color: #3C4858;
