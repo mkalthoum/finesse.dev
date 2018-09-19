@@ -181,6 +181,7 @@ div.wpforms-container .wpforms-form textarea {
 .carousel .sub-title,
 h4.author,
 .hestia-about p,
+.hestia-about-us p,
 .card-product .price,
 .card-product .price h4,
 .blog-sidebar .widget h5,
@@ -1045,21 +1046,19 @@ width: 100%;
 height: 100%;
 }
 .fullscreen-about-us {
-  height: 100vh;
+  height: 103vh;
   position: relative;
 
 
 }
 .about-us {
-  text-align: left !important;
-  margin-top: 10px;
 
   width: 100%
 }
 .fullscreen {
   height: 100vh;
   position: relative;
-  top: -10px;
+
 }
 .bounce-top {
   margin-top: -100px;
@@ -1367,10 +1366,11 @@ padding-left: 15px;
 }
 @media (min-width: 749px) {
   .about-us {
-    padding-top: 10%;
+  
+
   }
 .hestia-about.section-image {
-padding-top: 14%;
+padding-top: 10%;
 }
   .contactus .card .content {
   padding: 30px 30px 0;
@@ -1379,7 +1379,7 @@ padding-top: 14%;
   padding: 15px 30px;
 }
   .fullscreen-about-us {
-  height: 100vh;
+  height: 105vh;
   position: relative;
 
 
@@ -1442,15 +1442,15 @@ padding-top: 14%;
   padding: 15px 30px;
 }
   .fullscreen-about-us {
-  height: 100vh;
+  height: 105vh;
   position: relative;
 
 
 }
  .fullscreen {
-  height: 90vh;
+  height: 100vh;
   position: relative;
-  padding-top: 100px;
+ 
 
 }
 .feature-center {
@@ -1472,14 +1472,15 @@ padding-top: 14%;
   padding: 15px 30px;
 }
   .fullscreen-about-us {
-  height: 100vh;
+  height: 105vh;
   position: relative;
 
 
 }
   .fullscreen {
-  height: 90vh;
+  height: 100vh;
   position: relative;
+  top: 0;
 
 }
 .feature-center {
@@ -1536,14 +1537,14 @@ padding-top: 14%;
   padding: 15px 30px;
 }
   .fullscreen-about-us {
-  height: 100vh;
+  height: 105vh;
   position: relative;
-  padding-top: 2% !important;
-
+  top: 0;
 
 }
+
   .fullscreen {
-  height: 90vh;
+  height: 100vh;
   position: relative;
   top: 0;
   min-height: 565px;
@@ -1558,9 +1559,7 @@ padding-top: 14%;
   position: relative;
   top: 100px;
 }
-.about-center {
-  padding-top: 15% !important;
-}
+
   .container {
     max-width: 2000px;
   }
@@ -4790,7 +4789,7 @@ table > tbody > tr:last-child,
 }
 .contactus .hestia-info .icon,
 .contactus .info .icon {
-  margin-top: 1px;
+  margin-top: 10px;
   color: #fff;
 }
 .contactus h5.description {
@@ -6701,6 +6700,7 @@ aside .widget a {
 @media (max-width: 1199px) {
   .hestia-features .row,
   .hestia-about .row,
+  .hestia-about .row,
   .products .row,
   .hestia-work .row,
   .hestia-team .row,
@@ -6793,6 +6793,7 @@ aside .widget a {
   .hestia-features .row,
   .features .row,
   .hestia-about .row,
+  .hestia-about-us .row,
   .about .row,
   .products .row,
   .hestia-work .row,
@@ -8563,4 +8564,21 @@ display: block;
 .hestia-about.section-image h5.sub {
   font-size: 18px !important;
   margin-top: -10px !important;
+}
+
+.hestia-about-us p {
+  color: #ffffff;
+}
+
+.hestia-about-us h1, .hestia-about-us h2, .hestia-about-us h3, .hestia-about-us h4, .hestia-about-us h5 {
+  color: #3C4858;
+  text-decoration: none;
+  word-wrap: break-word;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+}
+.hestia-about-us {
+  font-weight: 300;
+}
+.hestia-about-us h1, .hestia-about-us h2, .hestia-about-us h3, .hestia-about-us h4, .hestia-about-us h5 {
+  font-weight: 700;
 }

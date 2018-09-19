@@ -80,7 +80,7 @@ class Hestia_Subscribe_Section extends Hestia_Abstract_Main {
 		$class_to_add .= ! empty( $hestia_subscribe_background ) ? 'subscribe-line-image' : '';
 
 		hestia_before_subscribe_section_trigger(); ?>
-		<section class="hestia-subscribe subscribe-line <?php echo esc_attr( $class_to_add ); ?>" id="subscribe"
+		<section class="hestia-subscribe fullscreen subscribe-line <?php echo esc_attr( $class_to_add ); ?>" id="subscribe"
 				data-sorder="hestia_subscribe" <?php echo wp_kses_post( $section_style ); ?>>
 			<?php
 			hestia_before_subscribe_section_content_trigger();
@@ -88,7 +88,7 @@ class Hestia_Subscribe_Section extends Hestia_Abstract_Main {
 				hestia_display_customizer_shortcut( 'hestia_subscribe_hide', true );
 			}
 			?><span id="subscribe"></span>
-			<div class="container fullscreen subscribe-center">
+			<div class="container subscribe-center">
 				<?php hestia_top_subscribe_section_content_trigger(); ?>
 
 				<div class="row text-center">
