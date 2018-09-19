@@ -1045,18 +1045,13 @@ iframe {
 width: 100%;
 height: 100%;
 }
-.fullscreen-about-us {
-  height: 103vh;
-  position: relative;
 
-
-}
 .about-us {
 
   width: 100%
 }
 .fullscreen {
-  height: 100vh;
+  height: 102vh;
   position: relative;
 
 }
@@ -1309,6 +1304,16 @@ h2.hestia-title-contactus {
 
 .container {
   max-width: 100%;
+}
+@media (max-width: 400px)
+{
+  .fullscreen-about-us {
+  height: 103vh;
+  position: relative;
+  min-height: 1000px;
+
+}
+
 }
 @media (min-width: 325px)
 {
