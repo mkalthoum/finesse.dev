@@ -1310,7 +1310,7 @@ h2.hestia-title-contactus {
   .fullscreen-about-us {
   height: 103vh;
   position: relative;
-  min-height: 1000px;
+  min-height: 1100px;
 
 }
 
@@ -1356,10 +1356,10 @@ h2.hestia-title-contactus {
 
 @media (min-width: 420px) {
    .fullscreen {
-  height: 95vh;
+  height: 100vh;
   position: relative;
-  padding-top: 100px;
-  min-height: 565px;
+
+  min-height: 590px;
 
 }
 .hestia-about.section-image {
