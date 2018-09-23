@@ -55,6 +55,7 @@ if ( version_compare( PHP_VERSION, '5.3.29' ) < 0 ) {
 
 	return;
 }
+/* About us Section - Removed
 function new_section_2(){
 
 echo do_shortcode('<section class="hestia-about hestia-about-us section-image fullscreen-about-us" id="about-us" data-sorder="hestia_testimonials" tabindex="-1" style="background-image: url(http://localhost/finesse/wp-content/uploads/2018/08/Bahamas.jpeg);" ><span id="about-us"></spand>
@@ -78,7 +79,7 @@ echo do_shortcode('<section class="hestia-about hestia-about-us section-image fu
 </div>
 </div></section>');
 
-}
+}*/
 
 add_action( 'hestia_before_subscribe_section_hook', 'new_section_2' );
 /*function new_section_1(){

@@ -119,7 +119,7 @@ class Hestia_Contact_Section extends Hestia_Abstract_Main {
 						}
 
 						?><div class="map_canvas">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d377643.1448643036!2d-71.25046756407667!3d42.31400891969002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3652d0d3d311b%3A0x787cbf240162e8a0!2sBoston%2C+MA!5e0!3m2!1sen!2sus!4v1535467845834" width="90%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059353029!2d-74.25986548248684!3d40.697149419326095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY!5e0!3m2!1sen!2sus!4v1537383603405" width="90%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 					</div>
 					<?php
 					$hestia_contact_form_shortcode_default = '[pirate_forms]';
@@ -178,7 +178,8 @@ class Hestia_Contact_Section extends Hestia_Abstract_Main {
 			</div>
 			<div class="description">
 				<h4 class="info-title">Give us a ring</h4>
-				<p>Michael Jordan <br> +40 762 321 762<br>Mon - Fri, 8:00-22:00</p>
+				<p><a href"mailto:hind@finesse-app.com">Hind@finesse-app.com</a><br />
+				a href"sophia@finesse-app.com">Sophia@finesse-app.com</a></p>
 			</div>
 		</div>';
 
