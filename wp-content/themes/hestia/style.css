@@ -1322,6 +1322,11 @@ h2.hestia-title-contactus {
 }
 @media (min-width: 325px)
 {
+.section-image .container {
+  position: relative;
+  z-index: 2;
+  top: 250px;
+}
   .arrow {
   text-align: center;
   
@@ -1379,8 +1384,10 @@ padding-left: 15px;
 }
 }
 @media (min-width: 749px) {
-.align-items-center {
-
+  .section-image .container {
+  position: relative;
+  z-index: 2;
+  top: 150px;
 }
 .hestia-about.section-image {
 padding-top: 10%;
@@ -4478,6 +4485,7 @@ table > tbody > tr:last-child,
 .section-image .container {
   position: relative;
   z-index: 2;
+  top: 100px
 }
 
 .section, .section-image {
@@ -8590,6 +8598,4 @@ display: block;
 .hestia-about-us h1, .hestia-about-us h2, .hestia-about-us h3, .hestia-about-us h4, .hestia-about-us h5 {
   font-weight: 700;
 }
-.section-image .container {
-  top: 100px;
-}
+
