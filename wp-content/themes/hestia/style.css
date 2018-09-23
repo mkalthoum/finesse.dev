@@ -1078,7 +1078,7 @@ height: 100%;
 }
 .arrow {
   text-align: center;
-  margin: 55% 0 !important;
+  margin-top: 15%;
    z-index: -1;
 }
 .gray-arrow {
@@ -1316,7 +1316,7 @@ h2.hestia-title-contactus {
 
 }
 .align-items-center {
-  margin-top: 10%;
+  
 }
 
 }
@@ -1324,11 +1324,10 @@ h2.hestia-title-contactus {
 {
   .arrow {
   text-align: center;
-  margin: 80% 0 !important;
-   z-index: -1;
+  
 }
   .align-items-center {
-  margin-top: 50%;
+
 }
 .card-profile {
   margin-top: 30px;
@@ -1381,7 +1380,7 @@ padding-left: 15px;
 }
 @media (min-width: 749px) {
 .align-items-center {
-    margin-top: 35%;
+
 }
 .hestia-about.section-image {
 padding-top: 10%;
@@ -8592,5 +8591,5 @@ display: block;
   font-weight: 700;
 }
 .align-items-center {
-  margin-top: 10%;
+
 }
