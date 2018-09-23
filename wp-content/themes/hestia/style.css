@@ -1078,7 +1078,7 @@ height: 100%;
 }
 .arrow {
   text-align: center;
-  margin: 8% 0 !important;
+  margin: 55% 0 !important;
    z-index: -1;
 }
 .gray-arrow {
@@ -1313,11 +1313,23 @@ h2.hestia-title-contactus {
       min-height: 1125px;
     padding-top: 45px !important;
 
+
+}
+.align-items-center {
+  margin-top: 10%;
 }
 
 }
 @media (min-width: 325px)
 {
+  .arrow {
+  text-align: center;
+  margin: 80% 0 !important;
+   z-index: -1;
+}
+  .align-items-center {
+  margin-top: 50%;
+}
 .card-profile {
   margin-top: 30px;
   text-align: center;
@@ -1358,9 +1370,6 @@ h2.hestia-title-contactus {
 @media (min-width: 420px) {
    .fullscreen {
   height: 100vh;
-  position: relative;
-
-  min-height: 590px;
 
 }
 .hestia-about.section-image {
@@ -1371,10 +1380,9 @@ padding-left: 15px;
 }
 }
 @media (min-width: 749px) {
-  .about-us {
-  
-
-  }
+.align-items-center {
+    margin-top: 35%;
+}
 .hestia-about.section-image {
 padding-top: 10%;
 }
@@ -1557,9 +1565,8 @@ padding-top: 10%;
 }
 
 .fullscreen-feature {
-  height: 100vh;
-  position: relative;
-  top: 0;
+  height: 102vh;
+
 }
 .feature-center {
   position: relative;
@@ -4483,11 +4490,7 @@ table > tbody > tr:last-child,
   padding: 35px 0 20px;
 }
 
-.about,
-.hestia-about {
-  padding: 0 0 20px;
 
-}
 
 .team,
 .hestia-team {
@@ -8587,4 +8590,7 @@ display: block;
 }
 .hestia-about-us h1, .hestia-about-us h2, .hestia-about-us h3, .hestia-about-us h4, .hestia-about-us h5 {
   font-weight: 700;
+}
+.align-items-center {
+  margin-top: 10%;
 }

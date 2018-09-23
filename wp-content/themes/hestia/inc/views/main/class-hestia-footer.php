@@ -86,11 +86,8 @@ class Hestia_Footer extends Hestia_Abstract_Main {
 				  		<h2 class="title">Follow Us!</h2>
 
 
-    <a href="#"><i class="fa fa-facebook"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
-    <a href="#"><i class="fa fa-google-plus"></i></a>
-    <a href="#"><i class="fa fa-instagram"></i></a>
+
+    <a href="https://www.instagram.com/finesse_app/" target="_blank"><i class="fa fa-instagram"></i></a>
 
   </div>
 
