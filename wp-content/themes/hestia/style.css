@@ -1322,7 +1322,7 @@ h2.hestia-title-contactus {
 }
 @media (min-width: 325px)
 {
-.section-image .container {
+.section-image .container .align-items-center {
   position: relative;
   z-index: 2;
   top: 250px;
@@ -1384,7 +1384,7 @@ padding-left: 15px;
 }
 }
 @media (min-width: 749px) {
-  .section-image .container {
+  .section-image .container .align-items-center {
   position: relative;
   z-index: 2;
   top: 150px;
@@ -4485,7 +4485,6 @@ table > tbody > tr:last-child,
 .section-image .container {
   position: relative;
   z-index: 2;
-  top: 100px
 }
 
 .section, .section-image {
