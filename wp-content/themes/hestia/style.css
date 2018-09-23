@@ -8590,6 +8590,6 @@ display: block;
 .hestia-about-us h1, .hestia-about-us h2, .hestia-about-us h3, .hestia-about-us h4, .hestia-about-us h5 {
   font-weight: 700;
 }
-.align-items-center {
-
+.section-image .container {
+  top: 100px;
 }
