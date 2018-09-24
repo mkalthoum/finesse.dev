@@ -37,7 +37,7 @@ class Hestia_Big_Title_Section extends Hestia_First_Front_Page_Section {
 				return false;
 			}
 			/**
-			 * Update slider type if hestia_slider_type in lite
+			 * Update slider type if  hestia_slider_type in lite
 			 */
 			$should_update = get_option( 'update_slider_type' );
 			if ( $should_update !== true ) {
@@ -154,7 +154,7 @@ class Hestia_Big_Title_Section extends Hestia_First_Front_Page_Section {
 							<a href="#finesse"
 							title="Learn More"
 							class="btn-custom2 btn" >Learn More</a>
-			
+
 					<?php hestia_big_title_section_buttons_trigger(); ?>
 				</div>
 
