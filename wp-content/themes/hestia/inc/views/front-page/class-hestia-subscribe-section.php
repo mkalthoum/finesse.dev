@@ -71,7 +71,7 @@ class Hestia_Subscribe_Section extends Hestia_Abstract_Main {
 		if ( ! empty( $hestia_subscribe_background ) ) {
 			$section_style .= 'background-image: url(' . esc_url( $hestia_subscribe_background ) . ');';
 		}
-		$section_style = 'style="' . esc_attr( $section_style ) . '"';
+		$section_style = 'style="' . esc_attr( $section_style ) . ' "';
 
 		/**
 		 * In case this function is called as shortcode, we remove the container and we add 'is-shortcode' class.

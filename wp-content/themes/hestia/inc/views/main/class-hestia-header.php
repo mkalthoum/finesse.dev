@@ -35,7 +35,7 @@ class Hestia_Header extends Hestia_Abstract_Main {
 					<div class="title-logo-wrapper header-logo" >
 						<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"
 								title="<?php bloginfo( 'name' ); ?>">
-							<img class="logo-normal" src="/finesse/wp-content/uploads/2018/08/fi-logo2.svg" style="width: 25%; height: auto;" alt="Finesse"></a>
+							<img class="logo-normal" src="/wp-content/uploads/2018/08/fi-logo2.svg" style="width: 25%; height: auto;" alt="Finesse"></a>
 
 					</div>
 
