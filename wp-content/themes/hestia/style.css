@@ -1060,7 +1060,7 @@ height: 100%;
   width: 100%
 }
 .fullscreen {
-  height: 100vh;
+  min-height: 100vh;
 
 }
 .bounce-top {
@@ -1319,7 +1319,7 @@ h2.hestia-title-contactus {
 @media (max-width: 400px)
 {
   .fullscreen-about-us {
-  height: 103vh;
+  min-height: 103vh;
   position: relative;
       min-height: 1125px;
     padding-top: 45px !important;
@@ -1386,7 +1386,7 @@ h2.hestia-title-contactus {
 
 @media (min-width: 420px) {
    .fullscreen {
-  height: 100vh;
+  min-height: 100vh;
 
 }
 .hestia-about.section-image {
@@ -1418,7 +1418,7 @@ padding-left: 15px;
   top: 40px;
 }
   .fullscreen {
-  height: 100vh;
+  min-height: 100vh;
 
 }
   .container {
@@ -1474,7 +1474,7 @@ padding-left: 15px;
 
 }
  .fullscreen {
-  height: 100vh;
+  min-height: 100vh;
 
 }
 .feature-center {
@@ -1502,7 +1502,7 @@ padding-left: 15px;
 
 }
   .fullscreen {
-  height: 100vh;
+  min-height: 100vh;
 }
 .feature-center {
   position: relative;
@@ -1565,12 +1565,12 @@ padding-left: 15px;
 }
 
   .fullscreen {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .fullscreen-feature {
-  height: 102vh;
-
+  min-height: 100vh;
+margin-bottom: 40px;
 }
 .feature-center {
   position: relative;
@@ -4888,7 +4888,6 @@ table > tbody > tr:last-child,
 ## Features Section
 --------------------------------------------------------------*/
 .hestia-features, .features {
-  padding: 75px 0 55px;
   text-align: center;
 }
 .hestia-features .hestia-title,
@@ -8594,4 +8593,8 @@ display: block;
 }
 .hestia-about-us h1, .hestia-about-us h2, .hestia-about-us h3, .hestia-about-us h4, .hestia-about-us h5 {
   font-weight: 700;
+}
+.fullscreen-feature {
+  min-height: 100vh;
+margin-bottom: 40px;
 }
