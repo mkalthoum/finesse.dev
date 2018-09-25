@@ -1055,6 +1055,7 @@ height: 100%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  outline: none;
 }
 .about-us {
   width: 100%
@@ -1102,7 +1103,7 @@ height: 100%;
 
 .feature-arrow {
   text-align: center;
-  margin: 20% 0 0 0 !important;
+  margin: 20% 0 15px 0 !important;
    z-index: -1;
 }
 .fa-feature {
@@ -8597,4 +8598,7 @@ display: block;
 .fullscreen-feature {
   min-height: 100vh;
 margin-bottom: 40px;
+}
+div#finesse {
+  outline: none;
 }
