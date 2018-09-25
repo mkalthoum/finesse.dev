@@ -1336,6 +1336,10 @@ h2.hestia-title-contactus {
 }
 @media (min-width: 325px)
 {
+  .feature-center {
+    margin-top: 20px;
+    padding-top: 20px;
+  }
 .section-image .container .align-items-center {
   position: relative;
   z-index: 2;
@@ -1346,8 +1350,9 @@ h2.hestia-title-contactus {
   text-align: center;
 
 }
-  .align-items-center {
-
+.fullscreen-feature {
+  min-height: 100vh;
+  margin-bottom: 50px;
 }
 .card-profile {
   margin-top: 30px;
