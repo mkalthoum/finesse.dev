@@ -67,9 +67,9 @@ class Hestia_About_Section extends Hestia_Abstract_Main {
 			$section_style = 'style="' . $section_style . '"';
 
 			hestia_before_about_section_trigger(); ?>
-			<section class="hestia-about <?php echo esc_attr( $class_to_add ); ?>" id="finesse" data-sorder="hestia_about"  <?php echo wp_kses_post( $section_style ); ?>>
+			<section class="hestia-about <?php echo esc_attr( $class_to_add ); ?>" data-sorder="hestia_about"  <?php echo wp_kses_post( $section_style ); ?>>
 				<?php hestia_display_customizer_shortcut( 'hestia_about_hide', true ); ?>
-				<div class="container fullscreen">
+				<div class="container fullscreen" id="finesse">
 					<div class="row">
 						<?php
 						// Show the selected frontpage content

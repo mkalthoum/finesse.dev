@@ -1340,6 +1340,7 @@ h2.hestia-title-contactus {
   position: relative;
   z-index: 2;
   top: 250px;
+  outline: none;
 }
   .arrow {
   text-align: center;
@@ -4890,6 +4891,7 @@ table > tbody > tr:last-child,
 --------------------------------------------------------------*/
 .hestia-features, .features {
   text-align: center;
+  outline: none;
 }
 .hestia-features .hestia-title,
 .hestia-features .title, .features .hestia-title,
