@@ -139,7 +139,7 @@ class Hestia_Footer extends Hestia_Abstract_Main {
 			'hestia_general_credits',
 			sprintf(
 				/* translators: %1$s is Theme Name, %2$s is WordPress */
-				esc_html__( '%1$s | Copyrights ©2019 H B T Finesse App Technology, LLC. All rights reserved. ', 'Finesse' ),
+				esc_html__( '%1$s | ©2019 H B T Finesse App Technology, LLC. All rights reserved. ', 'Finesse' ),
 				sprintf(
 					/* translators: %s is Theme name */
 					'<a href="//www.finesse-app.com" target="_blank" rel="nofollow">%s</a>',
